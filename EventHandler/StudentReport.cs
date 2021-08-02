@@ -4,7 +4,6 @@ namespace Event
 {
     class StudentReport : EventArgs
     {
-
         private string studentName;
         private float englishMark;
         private float mathMark;
@@ -17,7 +16,6 @@ namespace Event
             this.mathMark = math;
             this.computerMark = computer;
             this.totalSumMark = englishMark + mathMark + computerMark;
-
         }
         public string StudenName
         {
